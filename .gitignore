@@ -3,4 +3,5 @@ lib
 include
 *.py[co]
 .Python
-test_images/*.cropped*
+test_images/*.wand*
+test_images/*.pillow*
