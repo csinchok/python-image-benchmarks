@@ -3,3 +3,4 @@ lib
 include
 *.py[co]
 .Python
+test_images/*.cropped*
