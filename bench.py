@@ -19,6 +19,12 @@ TESTS = (
     # Lenna.png
     'crop("%s/Lenna.png", {"y1": 502, "y0": 10, "x0": 10, "x1": 502}, 600, 600, "jpeg")',
     'crop("%s/Lenna.png", {"y1": 502, "y0": 10, "x0": 10, "x1": 502}, 600, 600, "png")',
+
+    # Mistaken.jpg
+    'crop("%s/Mistaken.jpg", {"y1": 1577, "y0": 452, "x0": 0, "x1": 3375}, 1200, 675, "jpeg")',
+    'crop("%s/Mistaken.jpg", {"y1": 1577, "y0": 452, "x0": 0, "x1": 3375}, 1200, 675, "png")',
+    'crop("%s/Mistaken.jpg", {"y1": 2247, "y0": 0, "x0": 634, "x1": 2320}, 900, 1199, "jpeg")',
+    'crop("%s/Mistaken.jpg", {"y1": 2247, "y0": 0, "x0": 634, "x1": 2320}, 900, 1199, "png")',
 )
 
 
